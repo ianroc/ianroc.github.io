@@ -1,14 +1,49 @@
 body {
     font-family: Agency FB, Brush Script MT;
     font-size:15px;
+    color: #BB1515;
     line-height:1.5;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #2D0505;
 }
-
+/* Global */
 .container{
     width:80%;
     margin:auto;
     overflow: hidden;
+}
+/* header **/
+header{
+    background-color: #3A3A3A;
+    color:#7E7E7E;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#000000 3px solid;
+}
+header a{
+    color:#7E7E7E;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    float:left;
+    display: inline;
+    padding:0 20 0 20;
+}
+header #branding{
+    float: left;
+    
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
 }
