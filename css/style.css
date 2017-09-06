@@ -13,6 +13,10 @@ body {
     margin:auto;
     overflow: hidden;
 }
+ul{
+    margin:0;
+    padding:0;
+}
 /* header **/
 header{
     background-color: #3A3A3A;
@@ -28,14 +32,11 @@ header a{
     text-transform: uppercase;
     font-size: 16px;
 }
-header ul{
-    margin:0;
-    padding:0;
-}
+
 header li{
     float:left;
-    display: inline;
-    padding:0 20 0 20;
+    display:inline;
+    padding:0 20px 0 20px;
 }
 header #branding{
     float: left;
@@ -46,4 +47,25 @@ header #branding h1{
 }
 header nav{
     float:right;
+    margin-top: 10px;
+    
+}
+
+header .highlight, header .current a{
+    color:#000000;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+header a:hover{
+    color:#cccccc;
+    font-size: bold;
+    
+}
+
+/* Showcase */
+#showcase{
+    min-height:400px;
+    background:url('../img/showcase.jpg');
 }
