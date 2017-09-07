@@ -23,7 +23,7 @@ header{
     color:#7E7E7E;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom:#000000 3px solid;
+    border-bottom:#000000 5px solid;
 }
 header a{
     color:#7E7E7E;
@@ -67,5 +67,15 @@ header a:hover{
 /* Showcase */
 #showcase{
     min-height:400px;
-    background:url('../img/showcase.jpg');
+    background:url('../img/showcase.jpg')no-repeat 0 -400px;
+    text-align: center;
+    color:#000000;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 15px;
+}
+#boxes .box{
+    
 }
