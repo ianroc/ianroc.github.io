@@ -74,5 +74,12 @@ header a:hover{
     margin-top: 15px;
 }
 #boxes .box{
+    float:left;
+    padding: 10px;
+    text-align: center;
     
+}
+
+#boxes .box img{
+    width:90px;
 }
