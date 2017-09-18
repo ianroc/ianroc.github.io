@@ -30,7 +30,7 @@ header a{
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 10px;
 }
 
 header li{
@@ -77,9 +77,10 @@ header a:hover{
     float:left;
     padding: 10px;
     text-align: center;
+    width:19%;
     
 }
 
 #boxes .box img{
-    width:90px;
+    width:;
 }
