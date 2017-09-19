@@ -50,7 +50,9 @@ header nav{
     margin-top: 10px;
     
 }
-
+li a{
+    font-size: 15px;
+}
 header .highlight, header .current a{
     color:#000000;
     font-weight: bolder;
@@ -61,6 +63,7 @@ header .highlight, header .current a{
 header a:hover{
     color:#cccccc;
     font-size: bold;
+    font-size:20px;
     
 }
 
@@ -75,12 +78,16 @@ header a:hover{
 }
 #boxes .box{
     float:left;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width:19%;
     
 }
 
-#boxes .box img{
-    width:;
+p{
+    float: right;
+    
+}
+footer p{
+    float: left
 }
