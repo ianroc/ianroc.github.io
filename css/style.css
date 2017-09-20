@@ -69,7 +69,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-    
+     border-bottom:#000000 5px solid;
 }
 
 /* Boxes */
@@ -106,3 +106,7 @@ body h4{
 body h5{
     font-size: 35px;
 }
+body p{
+    float: 
+}
+
