@@ -107,6 +107,18 @@ body h5{
     font-size: 35px;
 }
 body p{
-    float: 
+    float:left; 
 }
-
+.body{
+    font-size: 25px;
+    color:#bb1515
+     
+}
+.body:hover{
+    color:#bb1515;
+    font-size: 25px;
+    font-style: italic;
+}
+.pics{
+   padding:5px;
+}
