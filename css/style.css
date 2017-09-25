@@ -106,8 +106,8 @@ body h4{
 body h5{
     font-size: 35px;
 }
-body p{
-    float:left; 
+p .page2{
+    float: left;
 }
 .body{
     font-size: 25px;
