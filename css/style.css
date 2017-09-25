@@ -106,8 +106,9 @@ body h4{
 body h5{
     font-size: 35px;
 }
-p .page2{
-    float: left;
+
+body .page2{
+    float: left
 }
 .body{
     font-size: 25px;
@@ -119,6 +120,7 @@ p .page2{
     font-size: 25px;
     font-style: italic;
 }
+
 .pics{
-   padding:5px;
+   padding:25px;
 }
